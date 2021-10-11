@@ -11,9 +11,9 @@ pipeline {
                 sh 'python3 app.py'
             }
         }
-        stage('docker check') {
+        stage('Create docker image') {
             steps {
-                sh 'docker run hello-world'
+                sh 'docker build -t zennox1337/zennox1337'
             }
         }
     }
