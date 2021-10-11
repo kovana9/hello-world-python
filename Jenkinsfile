@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Create docker image') {
             steps {
-                sh 'docker build -t zennox1337/zennox1337'
+                sh 'docker build -t zennox1337/zennox1337 .'
             }
         }
     }
