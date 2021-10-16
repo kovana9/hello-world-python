@@ -1,2 +1,1 @@
-array = ['i', 'love', 'pflb']
-print (array)
+print ('Hello world!')
