@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Create docker image') {
             steps {
-                sh 'docker build -t antona9/docker .'
+                sh 'sudo docker build -t antona9/docker .'
             }
         }
     }
